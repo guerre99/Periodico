@@ -1,0 +1,60 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 10vw;
+    margin: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+body {
+    text-align: justify;
+    padding: 24px;
+    background-color: #fffceb;
+    
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 17%;
+    padding:18px;
+    margin: 5px;
+    border-left: thick dotted #000;
+    border-right: thick dotted #000;
+    border-top: thick dotted #000;
+    border-bottom: thick dotted #000;
+}
+
+main img {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    column-span: all;
+}
+
+section > h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+
